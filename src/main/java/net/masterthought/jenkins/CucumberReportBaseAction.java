@@ -15,15 +15,15 @@ import java.io.File;
 import java.io.IOException;
 
 public abstract class CucumberReportBaseAction implements Action {
-    
+
     public String getUrlName(){
         return "cucumber-html-reports";
     }
-    
+
     public String getDisplayName(){
         return "Cucumber Reports";
     }
-    
+
     public String getIconFileName(){
             return "/plugin/cucumber-reports/cuke.png";
     }
@@ -38,13 +38,4 @@ public abstract class CucumberReportBaseAction implements Action {
 
     protected abstract File dir();
 }
-
-
-
-
-
-
-
-
-
 
